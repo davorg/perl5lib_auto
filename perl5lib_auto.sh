@@ -37,7 +37,7 @@ cd() {
 
   local cap="${PERL5LIB_LIB_CAP:-3}"
   local exclude_dirs="${PERL5LIB_EXCLUDE_DIRS:-$HOME/git}"
-  local exclude_patterns="${PERL5LIB_EXCLUDE_PATTERNS:-.vscode:.blib}"
+  local exclude_patterns="${PERL5LIB_EXCLUDE_PATTERNS:-.vscode:blib}"
 
   # Skip explicitly excluded root dirs (exact match only)
   IFS=: read -ra _exclude_dir_array <<< "$exclude_dirs"
