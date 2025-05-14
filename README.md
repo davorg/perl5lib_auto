@@ -44,7 +44,7 @@ You can customise the script’s behaviour with the following environment variab
 | `PERL5LIB_VERBOSE`          | Set to `1` for debug output                                                 |
 | `PERL5LIB_DRYRUN`           | Set to `1` to preview `PERL5LIB` without actually setting it                |
 | `PERL5LIB_EXCLUDE_DIRS`     | Colon-separated absolute directory paths to skip entirely (default: `~/git`) |
-| `PERL5LIB_EXCLUDE_PATTERNS` | Colon-separated substrings to filter out of matched `lib/` paths (default: `.vscode:.blib`) |
+| `PERL5LIB_EXCLUDE_PATTERNS` | Colon-separated substrings to filter out of matched `lib/` paths (default: `.vscode:blib`) |
 
 ## 🧪 Example Usage
 
