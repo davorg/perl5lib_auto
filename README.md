@@ -62,7 +62,7 @@ By default, the script behaves as if the following were set:
 ```bash
 export PERL5LIB_LIB_CAP=3
 export PERL5LIB_EXCLUDE_DIRS="$HOME/git"
-export PERL5LIB_EXCLUDE_PATTERNS=".vscode:.blib"
+export PERL5LIB_EXCLUDE_PATTERNS=".vscode:blib"
 ```
 
 ## 📜 License
